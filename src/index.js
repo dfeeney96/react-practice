@@ -4,13 +4,17 @@ import './index.css';
 import Search from "./search";
 import Heading from "./heading";
 import Weather from "./weather";
+import Footing from "./footing";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <div className="App">
  <Heading />
       <Search temperature="19" />
       <Weather />
+      </div>
+      <Footing />
   </React.StrictMode>,
   document.getElementById('root')
 );
