@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Search from "./search";
+import Heading from "./heading";
+import Weather from "./weather";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+ <Heading />
+      <Search temperature="19" />
+      <Weather />
   </React.StrictMode>,
   document.getElementById('root')
 );

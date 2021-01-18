@@ -1,0 +1,37 @@
+.search button {
+  background: #be5683;
+  border: 1px solid #994367;
+  border-radius: 15px;
+  color: white;
+  display: block;
+  margin: 5px auto;
+  padding: 8px;
+  transition: all 200ms ease-in-out;
+}
+
+.search current-location-button:hover {
+  background: #994367;
+  cursor: pointer;
+}
+
+.search form {
+  text-align: center;
+}
+
+.search .enter-city {
+  width: 70%;
+}
+
+.search .search-city {
+  background: #ff7e67;
+  border: 1px solid #ff7e67;
+  border-radius: 30px;
+  color: white;
+  padding: 2px 5px;
+  transition: all 200ms ease-in-out;
+}
+
+.search .search-city:hover {
+  background: #dd6752;
+  cursor: pointer;
+}
